@@ -2,9 +2,17 @@
 
 import React from 'react'
 import styles from './Footer.module.css'
+import { useAppSelector } from '@/redux/store'
 const Footer = () => {
+  const clicksNumber = useAppSelector((state) => state.user.value.numberOfClicks);
+  const username = useAppSelector((state) => state.user.value.name)
   return (
-    <div className={styles.container}>your name is Bryan and u clicked ${0} times</div>
+    <>
+    {username?(
+    <div className={styles.container}>
+      You clicked on the button {clicksNumber} {clicksNumber > 1 ? (<span>&nbsp;times</span>): <span> &nbsp; time</span>}
+      </div>
+      ):(<></>)} </>
   )
 }
 

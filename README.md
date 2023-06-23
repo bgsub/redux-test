@@ -27,8 +27,10 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## What is this? 
+A mini App i did to learn How to integrate a redux store in my react project
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## How does it work? 
+Click on the "click here" button as many times you want and submit a name ( username). The number of clicks and the name will be dispatched on the "submit" button click and stored in the redux store. The navBar will select them to create a profile. the footer will select them to show the number of times you clicked on the button 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+the "clear" button will clear the store and the inputs

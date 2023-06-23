@@ -1,5 +1,7 @@
 .container{
-    height: 15%;
+    height: 10%;
+    margin: none;
+    width: 100%;
     background-color: aqua;
     display: flex;
     justify-content: center;

@@ -1,22 +1,62 @@
-.container{
+.container {
     height: 15%;
-    width: 80%;
+    width: 100%;
     background-color: aqua;
     display: flex;
+    justify-content: flex-end;
     gap: 40px;
-    justify-content: end;
     align-items: center;
 }
+.tips{
+    height: 15%;
+    width: 100%;
+    font-size: 2em;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+
 .profile{
     display: flex;
     align-items: center;
+    justify-self: center;
     gap: 10px;
     margin-right: 10px ;
 }
+
 .pic{
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
     border-radius: 50%;
     border: 1px solid black;
     background-color: grey;
+}
+.head{
+    position: absolute;
+    width: 10px;
+    top: 0.4em;
+    height: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: rgb(189, 180, 180);
+}
+.body{
+    position: absolute;
+    bottom: 0.5em;
+    width: 2rem;
+    height: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3rem 3rem 0 0;
+    border: 1px solid black;
+    background-color: rgb(189, 180, 180);
 }
