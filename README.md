@@ -32,5 +32,3 @@ A mini App i did to learn How to integrate a redux store in my react project
 
 ## How does it work? 
 Click on the "click here" button as many times you want and submit a name ( username). The number of clicks and the name will be dispatched on the "submit" button click and stored in the redux store. The navBar will select them to create a profile. the footer will select them to show the number of times you clicked on the button 
-
-the "clear" button will clear the store and the inputs
